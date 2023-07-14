@@ -4,25 +4,25 @@ using ExamenPractico;
 
 
 //MAYOR DE EDAD
-//int personas = 5;
+int personas = 5;
 
-//int[] edades = new int[personas];
+int[] edades = new int[personas];
 
 
-//for (int i = 0; i < personas; i++) 
-//{
-//    Console.WriteLine($"Usuario {i + 1} ingrese su edad:");
-//    //edades[i] = int.Parse(Console.ReadLine());
-//    edades[i] = int.Parse(Console.ReadLine());
-//    string validar = MayoriaEdad.MayorDeEdad(edades[i]);
-//    Console.WriteLine($"El usuario {i + 1} {validar}");
+for (int i = 0; i < personas; i++) 
+{
+    Console.WriteLine($"Usuario {i + 1} ingrese su edad:");
+    //edades[i] = int.Parse(Console.ReadLine());
+    edades[i] = int.Parse(Console.ReadLine());
+    string validar = MayoriaEdad.MayorDeEdad(edades[i]);
+    Console.WriteLine($"El usuario {i + 1} {validar}");
 
-    
-//}
+
+}
 
 //------------------------------------ Empleado ---------------------------------------------------
 
-Empleados empleado1= new Empleados();
+Empleados empleado1 = new Empleados();
 
 
 empleado1.nombre = "Jacobo";
